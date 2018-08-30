@@ -1,0 +1,12 @@
+{% extends "/base.html.twig" %}
+
+{% block body %}
+	<h1>Accueil</h1>
+	{% if statut is defined %}
+		{% if statut == "1" %}
+			<p>Ok</p>
+		{% else %}
+			<p>Not ok</p>
+		{% endif %}
+	{% endif %} 
+{% endblock %}

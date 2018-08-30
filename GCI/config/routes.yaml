@@ -1,11 +1,3 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-
-signup:
-    path: /users/signup
-    controller: App\Controller\UsersController::signup
-
-signin:
-    path: /users/signin
-    controller: App\Controller\UsersController::signin    
